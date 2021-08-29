@@ -1,0 +1,33 @@
+/**index.wxss**/
+page{
+  background-color:pink;
+}
+
+.title{
+  position: relative;
+  top:25px;
+  width: 100%;
+  font-size: x-large;
+  font-weight: normal;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+  position: relative;
+  width:50%;
+  top:95px;
+}
+.input{
+  position: relative;
+  top:55px;
+}
+
+.output{
+  position: relative;
+  font-size: larger;
+  font-weight: lighter;
+  width:80%;
+  left:10%;
+  top:110px;
+
+}
