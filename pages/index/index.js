@@ -91,12 +91,19 @@ Page({
       })
       console.log(self.data.jjz)
     }
-    else{
+    else {
       this.setData({
-        jjz:'请完成输入'
+        jjz: '请完成输入'
       })
     }
   },
 
-  onLoad() {},
+  onLoad() { },
+  // 用户点击右上角分享
+  onShareAppMessage: function () { 
+  },
+
+  onShareTimeline: function () {
+
+  }
 })
